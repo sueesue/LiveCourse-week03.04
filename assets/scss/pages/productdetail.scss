@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+
+.product-info{
+    padding: 64px 312px;
+}
+
+.imgwrap-container{
+    width: 746px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
+    column-gap: 8px;
+    margin-right: 32px;
+}
+
+.imgwrap-rwd{
+    display: none;
+}
+
+.info-sectiom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.img-369{
+    width: 369px;
+    height: 369px;
+}
+
+.img-64{
+    width: 64px;   
+    height: 64px;
+}
+
+.product-intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.option-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    column-gap: 8px;
+}
+
+.size-picker{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.text-only{
+    cursor: pointer;
+    width: 160px;
+    padding: 12px 24px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(33, 37, 41, 1);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(222, 226, 230, 1);
+
+}
+
+.text-only:hover{
+    
+    border-color:rgba(108, 117, 125, 1) ;
+}
+
+.text-only:active{
+    border-color:rgba(33, 37, 41, 1) ;
+}
+
+.disabled{
+    color:rgba(108, 117, 125, 1) ;
+    border-color:rgba(222, 226, 230, 0.4) ;
+    pointer-events: none; 
+    
+}
+
+
+
+.cta-wrap{
+    padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cta-wrap-rwd{
+    display: none;
+}
+
+.bi-handbag{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.white{
+    color: #fff;
+}
+
+.bi-heart{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.bi-heart24{
+    width: 24px;
+    height: 24px;
+}
+
+.breadcrumb-section{
+    padding-bottom: 12px;
+}
+
+.accordition-container{
+    padding: 12px 0px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color:rgba(222, 226, 230, 1) ;
+}
+
+.accordition-title{
+    padding-bottom: 4px;
+}
+
+.accordition{
+    color: rgba(108, 117, 125, 1);
+}
+
+.bestseller-container{
+    padding: 0px 312px;
+}
+
+
+.bestseller-cardlist-container{
+    display: flex;
+    margin-top: 16px;
+    flex-wrap: wrap;
+    gap: 24px;
+    display: flex;
+}
+
+.no-padding{
+    padding: 0px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.icon-button{
+    cursor: pointer;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    color: rgba(33, 37, 41, 1);
+    padding: 12px 12px;
+}
+
+::-webkit-scrollbar {
+    width: 8%;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-button {
+
+    background: transparent;
+
+    border-radius: 10px;
+
+  }
+
+  ::-webkit-scrollbar-track-piece {
+
+    background: transparent;
+
+  }
+
+  ::-webkit-scrollbar-thumb {
+
+    border-radius: 10px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    border: 1px solid slategrey;
+
+  }
+
+  ::-webkit-scrollbar-track {
+
+    box-shadow: transparent;
+
+  }
+
+@media (max-width:768px){
+
+    .card.col-25{
+        width: 300px;
+    }
+
+    .product-intro{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .product-info.df{
+        display: block;
+        padding: 64px 0px;
+    }
+
+    .imgwrap-container{
+        display: none;
+    }
+    
+    .imgwrap-rwd{
+        display: flex;
+    }
+
+    .info-sectiom{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin-top: 24px;
+        padding: 0px 12px;
+    }
+
+    .breadcrumb-section{
+        padding-bottom: 8px;
+    }
+
+    .cta-wrap{
+        display: none;
+    }
+    
+    .cta-wrap-rwd{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 12px;
+        padding-top: 24px;
+
+    }
+
+
+    .bestseller-container{
+        padding: 0px;
+    }
+
+    .bestseller-cardlist{
+        display: flex;
+        margin-top: 16px;
+        flex-wrap: wrap;
+        gap: 24px;
+        overflow: auto;
+    }
+
+    .bestseller-cardlist-container{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 12px;
+    }
+
+
+    
+    
+
+}

@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+}
+
+.hero-header{
+    text-align: center;
+    padding-top: 201px;
+    padding-bottom: 201px;
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true) ;
+    background-repeat: no-repeat;
+    background-position: center center;}
+
+.title{
+    line-height: 120%;
+    color: rgba(33, 37, 41, 1);
+}    
+
+
+.body{
+    line-height: 150%;
+    color: rgba(33, 37, 41, 1);
+    font-weight: 400;
+}
+
+.hero-cn{
+    color: white;
+    font-size:40px ;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0px;
+
+}
+
+.hero-en{
+    color: white;
+    font-size:28px ;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin: 0px;
+
+}
+
+.section-brand-story{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 64px;
+    gap:48px;
+}
+
+.blockquote{
+    max-width: 1000px;
+    padding: 32px;
+    background-color:rgba(245, 254, 231, 1) ;
+
+}
+
+.blockquote-rwd{
+    display: none;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.bq-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color:rgba(87, 162, 3, 1);
+    padding-bottom: 12px;
+
+}
+
+.p-md{
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.MgTop-4px{
+    margin-top: 4px;
+}
+
+.textalign-center{
+    text-align: center;
+}
+
+.section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+img{
+    width: 100%;
+}
+
+.svg20{
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+}
+
+
+
+.brandintro{
+    max-width: 1076px;
+    padding-bottom: 1px;
+
+}
+
+.story-content{
+    width: 856px;
+}
+
+.brand-story{
+    width: 856px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:16px;
+    padding-bottom: 48px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(222, 226, 230, 1);
+}
+
+.history{
+    width: 856px;
+}
+
+.brand-concept{
+    width: 856px;
+}
+
+
+.h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.2px;
+    color: rgba(33, 37, 41, 1);
+    padding-bottom: 24px;
+
+}
+
+.h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: rgba(87, 162, 3, 1);
+
+}
+
+.gap-md{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.gap-sm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.story-ul {
+    font-size: 16px;
+    list-style-type: disc;
+    list-style: disc;
+    list-style-position: inside}
+
+::marker {
+    font-size: 0.9rem; 
+      }
+
+
+.year{
+    padding-right: 8px;
+}
+
+.p-style01{
+    padding-left: 8px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color:  rgba(33, 37, 41, 1);
+
+}
+
+.p-style02{
+    padding-left: 12px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color:  rgba(222, 226, 230, 1);
+}
+
+.story-a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.8px;
+    color: rgba(87, 162, 3, 1);
+    
+}
+
+.link-01{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color:  rgba(87, 162, 3, 1);
+    padding-left: 4px;
+    color: rgba(87, 162, 3, 1);
+
+}
+
+
+.color-n600{
+    color: rgba(108, 117, 125, 1);
+}
+
+@media (max-width:768px){
+
+    .section-brand-story{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 64px;
+        padding-left: -12px;
+        padding-right: -12px;
+        gap:48px;
+    }
+
+    .hero-header{
+        text-align: center;
+        padding-top: 87px;
+        padding-bottom: 87px;
+        background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true) ;
+        background-repeat: no-repeat;
+        background-position: center center;}
+    
+        .blockquote{
+            display: none;
+            padding: 12px;
+            background-color:rgba(245, 254, 231, 1) ;
+        
+        }
+    
+     
+    
+        .blockquote-rwd{
+            display: block;
+            background-color:rgba(245, 254, 231, 1) ;
+            padding: 24px;
+    
+        }
+    
+        .brandintro{
+            width: 100%;
+            padding-right: 0px;
+            padding-right: 0px;
+        
+        }
+    
+        .brand-story{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap:16px;
+            padding-bottom: 48px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-color: rgba(222, 226, 230, 1);
+        }
+    
+        .story-content{
+            width: 100%;
+            padding-right: 12px;
+            padding-left: 12px;
+        }
+    
+    
+        
+        .history{
+            width: 100%;
+            padding-right: 12px;
+            padding-left: 12px;
+            
+        }
+        
+        .brand-concept{
+            width: 100%;
+            padding-right: 12px;
+            padding-left: 12px;
+            
+        }
+    
+        .h4{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 120%;
+            letter-spacing: 1.2px;
+            color: rgba(33, 37, 41, 1);
+            padding-bottom: 16px;
+        
+        }
+        
+    
+    }
+    
